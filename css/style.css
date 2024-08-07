@@ -1,0 +1,520 @@
+*{
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+.wrapper{
+	width: 100%;
+	margin: 0 auto;
+	padding: 1%;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.clearfix{
+	float: none;
+	clear: both;
+}
+.text-right{
+	text-align: right;
+}
+.text-left{
+	text-align: left;
+}
+
+.text-center{
+	text-align: center;
+	text-decoration: none;
+}
+.text-white{
+    color: antiquewhite;
+}
+
+fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+.col-2{
+	width: 48%;
+	float: left;
+	margin: 1%;
+ }
+ .col-3{
+	width: 28%;
+	float: left;
+	margin: 2%;
+}
+
+.tbl-30{
+	background-position: center;
+}
+
+table tr th{
+	border-bottom: 1px solid aliceblue;
+	padding: 1%;
+	text-align: left;
+}
+
+table tr td{
+	padding: 1%;
+}
+
+
+.btn-primary{
+	background-color: #F15512 ;
+	padding: 1%;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.btn-primary:hover{
+	background-color: black;
+	color: rosybrown;
+}
+
+
+.btn-secondary{
+	background-color: rosybrown ;
+	padding: 1%;
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.btn-secondary:hover{
+	background-color: black;
+	color: rosybrown;
+}
+
+
+.btn-danger{
+	background-color: red ;
+	padding: 1%;
+	color: lightblue;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.btn-danger:hover{
+	background-color: #F15512;
+	color: white ;
+}
+
+.success{
+	padding: 2%;
+	color: aqua;
+}
+
+.error{
+	padding: 2%;
+	color: darkred;
+}
+ .img{
+ 	width: 50%;
+ 	padding-left: 20%;
+ }
+
+
+ .h3{
+ 	color:#F15512; 
+ }
+ .float-container{
+    position: relative;
+}
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 15px;
+}
+.float-text{
+    position: absolute;
+    bottom: 15px;
+    left: 30%;
+}
+
+
+
+/* Css for Navbar */
+.navbar{
+	background-color: black;
+}
+.logo{
+	width: 20%;
+	float: left;
+	/*font-weight: bold;*/
+	color: white;
+	text-decoration: none;
+}
+.btn{
+	color: black;
+	background-color: rosybrown;
+	padding-left: 2%;
+	padding-right: 2%;
+	text-decoration: none;
+	cursor: pointer;
+}  
+.btn:hover{
+	background-color: black;
+	color: rosybrown;
+}
+.menu{
+	width: 70%;
+	float: right;
+}
+.menu ul{
+	list-style-type: none
+;
+}
+
+.menu ul li{
+	display: inline;
+	padding: 2%;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	font-weight: 300;
+	color: whitesmoke;
+}
+
+.menu ul li a:hover{
+	color: #5E2006;
+	text-decoration: none;
+}
+ /*Css for About Section */
+ .about{
+ 	margin-bottom: 5%;
+ 	background-color:aquamarine;
+ 	padding-top: 3%;
+ }
+ .about-tittle{
+ 	margin-bottom: 5%;
+ }
+
+.about-subtittle{ 
+	        
+
+
+}
+.about11{
+	color: #202124;
+    font-family: 'Times New Roman', Arial;
+    font-variant: normal;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.about2w{
+	background-image: url(../images/limo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 107%;
+    margin: 0 auto;
+    padding: 7% 0;
+    padding-left: 9%;
+
+    /*background-size: cover;*/
+    /*background-position: center;*/
+    /*margin-bottom: 10%;*/
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
+}
+/* CSS for about2 Section */
+.about2{
+	/*margin-bottom: 15%;*/
+	/*padding-bottom: 20%;*/
+	
+}
+.background-image {
+    padding: 50px 0; /* Adjust padding as needed */
+    position: relative;
+
+}
+
+.content-wrapper {
+    position: relative;
+    z-index: 2;
+    /* Optional: Add a semi-transparent background to make text more readable */
+    padding: 20px; /* Adjust padding as needed */
+}
+
+.about-content {
+    display: flex;
+    flex-direction: row; /* Ensure the row direction */
+    align-items: center;
+    margin: 20px 0; /* Add margin to separate from background section */
+}
+
+.about-text {
+    flex: 1;
+    text-align: left; /* Ensure text is left-aligned */
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-img {
+    width: 100%;
+    max-width: 300px; /* Adjust max-width as needed */
+    height: auto;
+    margin-left: 20px; /* Add space between text and image */
+}
+
+.about2 a{
+	
+	font-weight: bold;
+}
+
+.about2 a:hover{
+    color: lightblue;
+}
+
+.about2 h2{
+	color: black;
+}
+.about-box{
+	position: relative;
+}
+
+.about2-tittle{
+	position: absolute;
+	top: 80%;
+	padding: 6%;
+	color: black;
+	text-align: left;
+}
+
+
+
+/* CSS for about3 Section */
+.about3{
+
+}
+
+.about3 h3{
+	color: black;
+}
+.about3 p{
+	color: black;
+}
+
+
+
+/* CSS for contact us Section */
+
+.contacts h2{
+  color: red;
+}
+
+.contacts h3{
+  color: blue;
+}
+
+
+/* CSS for login Section */
+
+.login{
+	border: 1px solid grey;
+	width: 20%;
+	margin: 10% auto;
+	padding: 2%;
+}
+
+
+
+
+
+/* Css for social section*/
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+/*css for services*/
+.services{
+    padding: 4% 0;
+}
+
+.box-3{
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+/*css for taxi*/
+.taxi-menu{
+    background-color: #ececec;
+    padding: 4% 0;
+    padding-left: 2%;
+}
+
+.taxi-search{
+    background-image: url(../images/limo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 7% 0;
+    padding-left: 2%;
+}
+.taxi-menu-box{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.taxi-menu-img{
+    width: 20%;
+    float: left;
+}
+
+.taxi-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.taxi-passengers{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+
+.taxi-detail{
+    font-size: 1rem;
+    color: #1962e0;
+}
+
+
+
+/* CSS for book Section */
+
+.booking{
+	width: 50%;
+    margin: 0 auto;
+}
+.book-search{
+    background-color: #ececec ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+    padding-left: 2%;
+}
+.book-search h2{
+	color: black;
+}
+
+.taxi-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.taxi-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+
+
+
+
+/* CSS for mission Section */
+.mission{
+	/*background-color: black;*/
+	padding-bottom: 12%;
+	background-color: black;
+    font-size: 1rem;
+	color: white;
+
+}
+
+.mission h3{
+	color: white;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-section.about {
+    max-width: 30%;
+}
+
+.footer-section.contact, .footer-section.social {
+    max-width: 20%;
+}
+
+.footer-section.links {
+    max-width: 30%;
+    text-align: center;
+}
+
+.footer-section h2 {
+    margin-bottom: 15px;
+}
+
+.footer-section p, .footer-section ul, .footer-section a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section .social a {
+    color: white;
+    margin-right: 10px;
+    font-size: 1.5em;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #444;
+    margin-top: 20px;
+}
